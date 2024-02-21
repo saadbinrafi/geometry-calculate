@@ -15,7 +15,7 @@ function calculateEllipseArea(){
 
 
 
-    const area = 0.5 * major * minor;
+    const area = 3.14 * major * minor;
     console.log(area)
 
 

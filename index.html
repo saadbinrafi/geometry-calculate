@@ -171,6 +171,80 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!-- six card  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/pentagon.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Pentagon</h2>
+                      <p class="text-center py-4">Area = 0.5 x p x b </p>
+
+                        <div class="flex justify-center">
+                           
+                            <div>
+                                <input id="pentagon-perimeter" class="w-24 text-1xl p-2 rounded-sm shadow-lg" type="text" placeholder="perimeter">
+                                <span class="ml-2 mr-4">cm</span>
+                            </div>
+                            
+                            <div>
+                                <input id="pentagon-apothem" class="w-24 text-1xl p-2 rounded-sm shadow-lg" type="text" placeholder="apothem ">
+                                <span class="ml-2 mr-4">cm</span>
+                            </div>
+    
+                        </div>
+                        
+
+                        <div>
+                            <p class="text-2xl text-center my-2">
+                               Your Area is : - <span id="pentagon-area">0</span>
+
+                            </p>
+                        </div>
+
+
+                        <div class="card-actions">
+                            <button onclick="calculatePentagonArea()" class="btn btn-primary  w-full text-[20px]">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- seven card  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ellipse</h2>
+                      <p class="text-center py-4">Area = 0.5 x p x b </p>
+
+                        <div class="flex justify-center">
+                           
+                            <div>
+                                <input id="ellipse-major" class="w-24 text-1xl p-2 rounded-sm shadow-lg" type="text" placeholder="major">
+                                <span class="ml-2 mr-4">cm</span>
+                            </div>
+                            
+                            <div>
+                                <input id="ellipse-minor" class="w-24 text-1xl p-2 rounded-sm shadow-lg" type="text" placeholder="minor ">
+                                <span class="ml-2 mr-4">cm</span>
+                            </div>
+    
+                        </div>
+                        
+
+                        <div>
+                            <p class="text-2xl text-center my-2">
+                               Your Area is : - <span id="ellipse-area">0</span>
+
+                            </p>
+                        </div>
+
+
+                        <div class="card-actions">
+                            <button onclick="calculateEllipseArea()" class="btn btn-primary  w-full text-[20px]">Calculate</button>
+                        </div>
+                    </div>
+                </div>
                 
                 
             </div>
@@ -194,5 +268,7 @@
     <script src="scripts/rectangle.js"></script>
     <script src="scripts/parallelogram.js"></script>
     <script src="rhombus.js"></script>
+    <script src="scripts/pentagon.js"></script>
+    <script src="scripts/ellips.js"></script>
 </body>
 </html>
